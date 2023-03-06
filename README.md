@@ -1,4 +1,30 @@
 # Phase 3 Project Guidelines
+# Front-end Project Task Management Interface
+
+You can use this API in conjunction with my front-end project management app [see the repo](https://github.com/Briann254/phase-3-sinatra-react-project-management-Frontend.git)
+
+## Technologies Used in API
+
+- Ruby
+- ActiveRecord
+- SQLite3
+- Rack
+
+## How To Use
+
+Install it and run:
+
+```sh
+bundle install
+# create migrations with activerecord
+rake db:migrate
+# if you would like to use seed data
+rake db:seed
+# start server
+shotgun
+```
+
+Shotgun uses port 9393 by default.
 
 ## Learning Goals
 
